@@ -8,6 +8,7 @@ import Classcompo from './components/Classcompo';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Products from './components/Props/Democomponents';
+import ShowMsg from './components/Events/Events';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,7 +22,8 @@ root.render(
     <Classcompo></Classcompo> */}
     {/* <Header></Header> 
     <Footer></Footer> */}
-    <Products />
+    {/* <Products /> */}
+    <ShowMsg/>
     
 
     
