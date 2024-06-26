@@ -7,8 +7,10 @@ import Functioncompo from './components/Functioncompo';
 import Classcompo from './components/Classcompo';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Products from './components/Props/Democomponents';
 import ShowMsg from './components/Events/Events';
+import Products from './components/Props/Democomponents';
+import MyRouterApp from './components/Router/MyRouterApp';
+import Lists from './components/Lists/Lists';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,8 +24,11 @@ root.render(
     <Classcompo></Classcompo> */}
     {/* <Header></Header> 
     <Footer></Footer> */}
-    {/* <Products /> */}
-    <ShowMsg/>
+    {/* <Products/> */}
+    {/* <ShowMsg/> */}
+    {/* <Lists/> */}
+    <MyRouterApp/>
+    
     
 
     
